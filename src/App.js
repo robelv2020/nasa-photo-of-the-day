@@ -1,5 +1,15 @@
-import React from "react";
+import React, {useState, useEffect, Component} from "react";
+
+// Importing the style
 import "./App.css";
+
+// setting up for Components
+import Card from './components/Cards.js'
+
+// setting up for API
+import axios from 'axios'
+
+ 
 
 function App() {
   return (
